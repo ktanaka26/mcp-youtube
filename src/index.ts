@@ -58,8 +58,6 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       [
         "--write-sub",
         "--write-auto-sub",
-        "--sub-lang",
-        "en",
         "--skip-download",
         "--sub-format",
         "vtt",
